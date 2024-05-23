@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+li {
+    list-style: none;
+}
+
+sup {
+    font-size: 0.6em;
+}
+
+nav {
+    padding: 20px 0;
+    background-color: #1f1f56;
+}
+
+
+
+.banner {
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner.jpg) 0/cover;
+}
+
+.proposition p {
+    padding-bottom: 14px;
+}
+
+.proposition-of-month {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.propose {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.cost {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.price {
+    color: #fd8300;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.units {
+    color: #fd8300;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.inform-and-popular {
+    width: 74%;
+}
+
+h1 {
+    padding-bottom: 28px;
+    color: #24242b;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.mainpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 36px;
+}
+
+article {
+    width: 95%;
+}
+
+article p {
+    margin-bottom: 23px;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Arial";
+}
+
+article a {
+    color: #fd8300;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+article a:hover {
+    text-decoration: none;
+}
+
+.popular {
+    padding: 30px 0 46px;
+    border-top: 1px solid #e4e4ec;
+}
+
+.popular p {
+    margin-bottom: 5px;
+    color: #24242b;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.popular h2{
+    margin-bottom: 25px;
+    color: #24242b;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.examples {
+    display: flex;
+    justify-content: space-between;
+}
+
+.examples a {
+    text-decoration: underline;
+}
+
+.examples h2 {
+    margin: 0 0 7px;
+    color: #1f1f56;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.examples a:hover {
+    text-decoration: none;
+}
+
+.examples p {
+    color: #9999a6;
+    font-size: 13px;
+    font-family: "Arial";
+}
+
+.examples img {
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 151px;
+}
+
+aside {
+    overflow: hidden;
+    width: 23%;
+    border-radius: 3px;
+}
+
+.label {
+    padding: 15px;
+    background-color: #1f1f56;
+}
+
+aside p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    background-color: #1f1f56;
+
+}
+
+aside a {
+    display: inline-block;
+    padding: 15px;
+    width: 100%;
+    color: #25252c;
+    font-size: 14px;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+aside li {
+    border-top: 1px solid #cdcddd;
+    list-style: none;
+   
+ background-color: #e4e4ec;
+}
+.outside{
+    position: relative;
+}
+ .outside:before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 14px;
+    width: 8px;
+    height: 12px;
+    background: url(../img/icons.png) no-repeat;
+    background-position: -129px 0;
+}
+
+aside li ul {
+    display: none;
+   
+}
+aside ul ul a{
+    padding-left: 30px;
+}
+
+aside ul li:hover>a {
+    color: #fff;
+
+}
+
+aside li:hover ul {
+    display: block;
+}
+
+aside ul li:hover>.outside {
+    background-color: #fd8300;
+
+}
+
+aside ul li:hover>a:before {
+    top: 20px;
+    right: 12px;
+    width: 12px;
+    height: 8px;
+    background-position: -129px -24px;
+
+}
+
+aside li li:hover a {
+    color: #666;
+    background-color: #cecedd;
+}
+
+
+

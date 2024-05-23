@@ -1,0 +1,65 @@
+[
+    {
+        "name": "EDMONTON",
+        "square": "312",
+        "rooms": "4",
+        "car": "2",
+        "img": "edmonton.png",
+        "cost": "53 200",
+        "id": "664c75dc89516"
+    },
+    {
+        "name": "MONTREAL",
+        "square": "290",
+        "rooms": "3",
+        "car": "2",
+        "img": "montreal.png",
+        "cost": "29 750",
+        "id": "664c776e9d407"
+    },
+    {
+        "name": "CALGARY",
+        "square": "272",
+        "rooms": "3",
+        "car": "2",
+        "img": "calgary.png",
+        "cost": "31 000",
+        "id": "664d027d57355"
+    },
+    {
+        "name": "RICHMOND",
+        "square": "242",
+        "rooms": "3",
+        "car": "3",
+        "img": "richmond.jpeg",
+        "cost": "42 000",
+        "id": "664d2b1c50005"
+    },
+    {
+        "name": "lalala",
+        "square": "980",
+        "rooms": "98",
+        "car": "989",
+        "img": "calgary.png",
+        "cost": "989898",
+        "id": "664d3948f1de5"
+    },
+    {
+        "name": "lalala",
+        "square": "980",
+        "rooms": "98",
+        "car": "989",
+        "img": "calgary.png",
+        "cost": "989898",
+        "id": "664d398ba88b4"
+    },
+    {
+        "name": "lalala",
+        "square": "980",
+        "rooms": "98",
+        "car": "989",
+        "img": "calgary.png",
+        "cost": "989898",
+        "id": "664d39ad3e368"
+    }
+]

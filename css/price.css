@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+li {
+    list-style: none;
+}
+
+sup {
+    font-size: 0.6em;
+}
+
+h1 {
+    margin-bottom: 22px;
+    font-size: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.description p {
+margin-bottom: 25px;
+max-width: 85%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+table {
+    margin-bottom: 27px;
+   overflow: hidden;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+
+
+ th p {
+    padding: 19px 21px 13px;
+    background: #1f1f56;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    font-family: "Roboto Slab";
+}
+td p{
+    padding: 15px 20px;
+    font-size: 14px;
+color: #666;
+font-family: "Arial";
+  border-bottom: 1px #cdcddd solid;
+background: #e4e4ec;
+transition: .2s;
+}
+tr:last-child td p{
+    border: none;
+}
+tr td:last-child{
+    text-align: end;
+}
+tr th:last-child p{
+    text-align: end;
+}
+tbody tr:hover p{
+   color: #fff;
+    background: #fd8300;
+}
+article{
+    border-bottom: 1px #e4e4ec solid;
+}
+article p{ 
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #666666;
+    font-family: "Arial";
+}
+h2{
+    margin-bottom: 33px;
+}
+h2 a{
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+h2:hover a{
+    text-decoration: none;
+}
+.popular {
+    padding: 30px 0 46px;
+}
+
+.popular p {
+    margin-bottom: 5px;
+    color: #24242b;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.popular h2{
+    margin-bottom: 25px;
+    color: #24242b;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.examples a {
+    text-decoration: underline;
+}
+figure{
+    width: 23%;
+}
+
+.examples h2 {
+    margin: 0 0 7px;
+    color: #1f1f56;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.examples a:hover {
+    text-decoration: none;
+}
+
+.examples p {
+    color: #9999a6;
+    font-size: 13px;
+    font-family: "Arial";
+}
+
+.examples img {
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 151px;
+    /* width: 100%; */
+}
+
+form{
+  /* display: none; */
+  padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+.point{
+    text-align: end;
+}
+input[type="file"]{
+    width: 40%;
+}
+.form:hover form{
+display: block;
+}
+
